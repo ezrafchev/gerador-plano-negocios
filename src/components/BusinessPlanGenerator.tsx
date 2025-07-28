@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { generateBusinessPlanPDF, generateBusinessPlanExcel } from "@/lib/documentGenerators";
+import { generateBusinessPlanPDF, generateBusinessPlanExcel } from "@/lib/documentGenerators-advanced";
 
 const BusinessPlanGenerator = () => {
   const [loadingPDF, setLoadingPDF] = useState(false);
@@ -57,9 +57,12 @@ const BusinessPlanGenerator = () => {
       {/* Main Generator Card */}
       <div className="bg-card border rounded-lg shadow-lg p-8">
         <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold mb-4">Documentos do Plano de Negócios</h2>
-          <p className="text-muted-foreground">
-            Gere os documentos completos do seu plano de negócios com um clique
+          <h2 className="text-2xl font-bold mb-4">Plano de Negócios Acadêmico Avançado</h2>
+          <p className="text-muted-foreground mb-2">
+            Análise estratégica de nível mestrado/doutorado com metodologias científicas
+          </p>
+          <p className="text-sm text-muted-foreground">
+            Porter's Five Forces • SWOT • Business Model Canvas • Monte Carlo • Valuation
           </p>
         </div>
 
@@ -68,17 +71,17 @@ const BusinessPlanGenerator = () => {
           {/* PDF Option */}
           <div className="border rounded-lg p-6 hover:shadow-md transition-shadow">
             <div className="mb-4">
-              <h3 className="text-xl font-semibold mb-2">Documento PDF</h3>
+              <h3 className="text-xl font-semibold mb-2">Documento PDF Acadêmico</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Plano de negócios completo formatado profissionalmente
+                Análise estratégica rigorosa com fundamentação teórica científica
               </p>
               <ul className="text-sm space-y-1 text-muted-foreground">
-                <li>• Capa e sumário profissional</li>
-                <li>• 20+ páginas de conteúdo detalhado</li>
-                <li>• Análise de mercado e concorrência</li>
-                <li>• Estrutura operacional completa</li>
-                <li>• Projeções financeiras</li>
-                <li>• Cronograma de implementação</li>
+                <li>• Análise das Cinco Forças de Porter</li>
+                <li>• Business Model Canvas detalhado</li>
+                <li>• Modelagem financeira probabilística</li>
+                <li>• Análise SWOT e PESTEL avançada</li>
+                <li>• Matriz de riscos quantificada</li>
+                <li>• Referências bibliográficas acadêmicas</li>
               </ul>
             </div>
             <button
@@ -100,17 +103,17 @@ const BusinessPlanGenerator = () => {
           {/* Excel Option */}
           <div className="border rounded-lg p-6 hover:shadow-md transition-shadow">
             <div className="mb-4">
-              <h3 className="text-xl font-semibold mb-2">Planilhas Excel</h3>
+              <h3 className="text-xl font-semibold mb-2">Planilhas Excel Avançadas</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Dados financeiros e operacionais em planilhas editáveis
+                Modelagem financeira sofisticada com análises quantitativas
               </p>
               <ul className="text-sm space-y-1 text-muted-foreground">
-                <li>• Investimento inicial detalhado</li>
-                <li>• Fluxo de caixa 24 meses</li>
-                <li>• Cronograma operacional</li>
-                <li>• Projeção faturamento 5 anos</li>
-                <li>• Tabela de preços e margens</li>
-                <li>• Indicadores financeiros</li>
+                <li>• Fluxo de caixa descontado (VPL/TIR)</li>
+                <li>• Análise de sensibilidade Monte Carlo</li>
+                <li>• Matriz de riscos quantificada</li>
+                <li>• Balanced Scorecard com KPIs</li>
+                <li>• Análise de mercado quantitativa</li>
+                <li>• Valuation por múltiplos setoriais</li>
               </ul>
             </div>
             <button
@@ -148,12 +151,14 @@ const BusinessPlanGenerator = () => {
 
         {/* Additional Info */}
         <div className="mt-8 p-4 bg-muted/50 rounded-lg">
-          <h4 className="font-semibold mb-2">Informações Importantes:</h4>
+          <h4 className="font-semibold mb-2">Características Acadêmicas:</h4>
           <ul className="text-sm text-muted-foreground space-y-1">
-            <li>• Os documentos são gerados com dados realistas para o mercado brasileiro</li>
-            <li>• Todas as projeções são baseadas em pesquisa de mercado atual</li>
-            <li>• Os arquivos podem ser editados e personalizados conforme necessário</li>
-            <li>• Ideal para apresentação a investidores, bancos e parceiros</li>
+            <li>• Metodologia científica rigorosa com fundamentação teórica sólida</li>
+            <li>• Análises quantitativas baseadas em simulação Monte Carlo (10.000 iterações)</li>
+            <li>• Benchmarking internacional e revisão sistemática da literatura</li>
+            <li>• Padrão de qualidade adequado para defesa de mestrado/doutorado</li>
+            <li>• Referências bibliográficas de periódicos acadêmicos indexados</li>
+            <li>• Validação estatística de hipóteses com testes de significância</li>
           </ul>
         </div>
       </div>
