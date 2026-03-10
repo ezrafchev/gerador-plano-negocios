@@ -1,7 +1,9 @@
 import { jsPDF } from "jspdf";
 import * as XLSX from "xlsx";
 
-// Advanced academic-level business data
+// ─────────────────────────────────────────────────────────────────────────────
+// MASTER DATA – EcoRubber Tech Industrial Ltda.
+// ─────────────────────────────────────────────────────────────────────────────
 const businessData = {
   companyName: "EcoRubber Tech Industrial Ltda.",
   location: "Vespasiano, Região Metropolitana de Belo Horizonte, MG",
@@ -10,7 +12,7 @@ const businessData = {
   initialCapital: "R$ 58.300 (Cenário Base) - R$ 85.000 (Cenário Otimizado)",
   targetClient: "Poliway Industrial, Vale S.A., CSN, Usiminas, ArcelorMittal",
   marketSegment: "B2B Industrial - Setor de Mineração e Siderurgia",
-  academicLevel: "Análise baseada em metodologias de Porter, SWOT, Canvas e Lean Startup"
+  academicLevel: "Análise baseada em metodologias de Porter, SWOT, Canvas e Lean Startup",
 };
 
 export async function generateBusinessPlanPDF() {
