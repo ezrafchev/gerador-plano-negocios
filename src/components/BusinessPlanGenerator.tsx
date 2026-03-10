@@ -62,7 +62,7 @@ const BusinessPlanGenerator = () => {
             Análise estratégica de nível mestrado/doutorado com metodologias científicas
           </p>
           <p className="text-sm text-muted-foreground">
-            Porter's Five Forces • SWOT • Business Model Canvas • Monte Carlo • Valuation
+            Porter&apos;s Five Forces • SWOT • Business Model Canvas • Monte Carlo • Valuation
           </p>
         </div>
 

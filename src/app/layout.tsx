@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: "Gerador de Plano de Negócios",
-  description: "Microusina para Reciclagem de Borracha e Fornecimento Técnico",
+  title: "EcoRubber Tech – Gerador de Plano de Negócios",
+  description:
+    "Plano de negócios estratégico para microusina industrial sustentável de beneficiamento de borracha reciclada e fornecimento de fixadores técnicos.",
+  keywords: [
+    "plano de negócios",
+    "borracha reciclada",
+    "microusina industrial",
+    "sustentabilidade",
+    "EcoRubber Tech",
+  ],
 };
 
 export default function RootLayout({
@@ -16,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>{children}</body>
+      <body className="font-sans antialiased">{children}</body>
     </html>
   );
 }
